@@ -1,22 +1,22 @@
----
 language: node_js
 node_js:
-  - "6"
-
+- '6'
 sudo: false
 dist: trusty
-
 addons:
   chrome: stable
-
 cache:
   directories:
-    - $HOME/.npm
-
+  - $HOME/.npm
 env:
   global:
-    # See https://git.io/vdao3 for details.
-    - JOBS=1
-
+  - JOBS=1
 before_install:
-  - npm config set spin false
+- npm config set spin false
+deploy:
+  provider: heroku
+  api_key:
+    secure: EG3zezHqdiBkPKL77WTtSoCxKVX6WGgrCNnIcgyEa1Ms1cdu/2pq1BRpVZrEGBhivachF+kw2bwfNx09WQpTQ9uqlv/EdnBjuN9FpJfFyEh8OCL3jClJOnoPNpS3ni/WZ5mEFKt/bgi4oHD9J+YBl0L4m3aKYG6kHqTosqBnTFwJxy3XevTNO5NShNtHtO9jj3TXbKwhVuBDs0YvIDsCAF6OrXdTvrYson5LPTTPZ+ZLf3aVRHDtRZO/EBl/x00+txAtgW9ViRdOHMHFkEBJ0R61g06Q5JKTk5/esFraxA8cTIXiYb+rmB3zCGMagdnrTPvTAEx0CALdSRHBVLFc94VtoufLMOJXeuMz8TTVs8qiO2pS6MDpvh54nF2X0KZugJppl3BfuL39Jg+hGAtAz9cFE47qqZ+YbhY6gE+Uf6heLIzjGDEs9k6NTwG1WpfmKVR/v5frT8KroTcIoFOUb7nS0Ip6F5tdJR2xdiAmTX+lwkzIUaCyl7Am6OEfhXXPVtmGY8hHm7hM7SiQG0YOSEr46vvUwdvcWxKHvFvhkxtapCRB1NMbHHl3QAiQp/TtWy5mTFVvyf3lGJ9yxakwbT9I2Ml1xfTjbkUQWWNb/kGXo7O2/0yTDtDZxUZAWi7yfFXqQsllmDK6ZkNt5A9bjPNz4UpvAnA3riNg0To92gU=
+  app: possessed-dungeon-24375
+  on:
+    repo: rishz/z-chat-ui
