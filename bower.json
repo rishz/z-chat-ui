@@ -1,0 +1,6 @@
+{
+  "name": "z-chat",
+  "dependencies": {
+    "materialize": "0.97.7"
+  }
+}
