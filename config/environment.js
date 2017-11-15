@@ -21,6 +21,10 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+    DS: {
+      host: 'http://localhost:4000',
+      namespace: 'api'
     }
   };
 
@@ -44,7 +48,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    // here you can enable a production-specific feature
+    ENV.DS.host = 'https://evening-ocean-82751.herokuapp.com/';
   }
 
   return ENV;
