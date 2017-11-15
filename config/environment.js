@@ -48,7 +48,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.DS.host = 'https://fierce-sierra-47548.herokuapp.com/';
+    ENV.DS.host = 'https://evening-ocean-82751.herokuapp.com/';
   }
 
   return ENV;
