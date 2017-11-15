@@ -11,14 +11,6 @@ test('it renders', function(assert) {
 
   this.render(hbs`{{register-card}}`);
 
-  assert.equal(this.$().text().trim(), '');
+  assert.equal(this.$().text().trim().replace(/[\s\n]+/g, ''), 'RegisterwithZchatUsernamePasswordConfirmPassword')
 
-  // Template block usage:
-  this.render(hbs`
-    {{#register-card}}
-      template block text
-    {{/register-card}}
-  `);
-
-  assert.equal(this.$().text().trim(), 'template block text');
 });
