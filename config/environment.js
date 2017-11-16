@@ -28,6 +28,11 @@ module.exports = function(environment) {
     },
     fastboot: {
       hostWhitelist: ['localhost:4200']
+    },
+    'ember-simple-auth': {
+      authenticationRoute: 'auth.login',
+      routeIfAlreadyAuthenticated: 'app.index',
+      routeAfterAuthentication: 'app.index'
     }
   };
 
