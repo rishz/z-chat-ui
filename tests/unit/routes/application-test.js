@@ -1,8 +1,9 @@
 import { moduleFor, test } from 'ember-qunit';
 
-moduleFor('route:auth/login', 'Unit | Route | auth/login', {
+moduleFor('route:application', 'Unit | Route | application', {
   // Specify the other units that are required for this test.
-  needs:['service:session','service:flashMessages']
+  // needs: ['controller:foo']
+  needs: ['service:session','service:flashMessages']
 });
 
 test('it exists', function(assert) {

@@ -1,10 +1,23 @@
-
 import Ember from 'ember';
 
-export default Ember.Route.extend({
+const { Route, inject } = Ember;
+
+export default Route.extend({
+  flashMessages: inject.service(),
   actions: {
     doRegister() {
-      alert('registration attempted');
+      this.get('currentModel').save()
+        .then(() => {
+          this.transitionTo('auth.login');
+
+          this.get('flashMessages').success('Registered! Please login now');
+        })
+        .catch((response) => {
+
+          // Error(s) while saving
+          const { errors } = response;
+          this.get('flashMessages').danger(errors.mapBy('detail').join(', '));
+        });
     }
   },
   model() {
