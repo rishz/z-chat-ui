@@ -1,4 +1,4 @@
-# z-chat [![Build Status](https://travis-ci.org/rishz/z-chat-ui.svg?branch=master)](https://travis-ci.org/rishz/z-chat-ui)
+# z-chat-ui [![Build Status](https://travis-ci.org/rishz/z-chat-ui.svg?branch=master)](https://travis-ci.org/rishz/z-chat-ui)
 
 
 This README outlines the details of collaborating on this Ember application.
