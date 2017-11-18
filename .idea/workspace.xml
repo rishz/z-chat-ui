@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3ea6521-b113-4674-8230-45cfe746c40f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/app.scss" afterPath="$PROJECT_DIR$/app/styles/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/app/index.hbs" afterPath="$PROJECT_DIR$/app/templates/app/index.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/unit/routes/app/index-test.js" afterPath="$PROJECT_DIR$/tests/unit/routes/app/index-test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,7 +35,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1510993478000" expanded="true" signature="61:194" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.hbs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/app/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+            <state relative-caret-position="255">
+              <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -66,7 +67,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="339">
               <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-              <folding />
+              <folding>
+                <marker date="1510994281000" expanded="true" signature="95:1830" ph="{...}" />
+                <marker date="1510994281000" expanded="true" signature="144:1627" ph="{...}" />
+                <marker date="1510994281000" expanded="true" signature="1638:1828" ph="{...}" />
+                <marker date="1510994281000" expanded="true" signature="1661:1822" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,8 +100,18 @@
       <file leaf-file-name="login-test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/unit/routes/auth/login-test.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/unit/routes/app/index-test.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+              <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -107,18 +123,6 @@
             <state relative-caret-position="60">
               <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="31" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/unit/routes/application-test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="50" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-              <folding>
-                <marker date="1510922139000" expanded="true" signature="109:258" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -173,7 +177,6 @@
         <option value="$PROJECT_DIR$/app/templates/components/user-info.hbs" />
         <option value="$PROJECT_DIR$/app/components/user-info.js" />
         <option value="$PROJECT_DIR$/app/routes/app.js" />
-        <option value="$PROJECT_DIR$/tests/unit/routes/app/index-test.js" />
         <option value="$PROJECT_DIR$/app/templates/application.hbs" />
         <option value="$PROJECT_DIR$/app/components/x-toasts.js" />
         <option value="$PROJECT_DIR$/app/templates/components/x-toasts.hbs" />
@@ -193,6 +196,7 @@
         <option value="$PROJECT_DIR$/app/routes/app/index.js" />
         <option value="$PROJECT_DIR$/app/styles/app.scss" />
         <option value="$PROJECT_DIR$/app/templates/app/index.hbs" />
+        <option value="$PROJECT_DIR$/tests/unit/routes/app/index-test.js" />
       </list>
     </option>
   </component>
@@ -239,6 +243,112 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -461,12 +571,12 @@
       <workItem from="1509461920769" duration="1086000" />
       <workItem from="1509477074045" duration="322000" />
       <workItem from="1510039319602" duration="1971000" />
-      <workItem from="1510646629731" duration="22968000" />
+      <workItem from="1510646629731" duration="23243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26347000" />
+    <option name="totallyTimeSpent" value="26622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
@@ -678,16 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/routes/app/index-test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding>
-            <marker date="1510914796000" expanded="true" signature="105:201" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -825,37 +925,37 @@
         <state relative-caret-position="315">
           <caret line="583" column="19" lean-forward="false" selection-start-line="583" selection-start-column="19" selection-end-line="583" selection-end-column="19" />
           <folding>
-            <marker date="1510922296000" expanded="true" signature="19203:19376" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="19306:19376" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="21149:21151" ph="//..." />
-            <marker date="1510922296000" expanded="true" signature="21149:21155" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="21149:21277" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="21214:21273" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="21370:21689" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="21465:21567" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="21471:21563" ph="//..." />
-            <marker date="1510922296000" expanded="true" signature="21626:21685" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="21784:22163" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="21883:22041" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="21889:21981" ph="//..." />
-            <marker date="1510922296000" expanded="true" signature="22100:22159" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="22251:22558" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="22336:22436" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="22342:22432" ph="//..." />
-            <marker date="1510922296000" expanded="true" signature="22495:22554" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="22652:22819" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="22749:22819" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="22755:22819" ph="//..." />
-            <marker date="1510922296000" expanded="true" signature="23296:23298" ph="//..." />
-            <marker date="1510922296000" expanded="true" signature="23296:23302" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="23296:23424" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="23361:23420" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="23513:23824" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="23600:23702" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="23606:23698" ph="//..." />
-            <marker date="1510922296000" expanded="true" signature="23761:23820" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="23963:24275" ph="{...}" />
-            <marker date="1510922296000" expanded="true" signature="24131:24271" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="19203:19376" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="19306:19376" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="21889:21891" ph="//..." />
+            <marker date="1510997768000" expanded="true" signature="21889:21895" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="21889:22017" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="21954:22013" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="22110:22429" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="22205:22307" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="22211:22303" ph="//..." />
+            <marker date="1510997768000" expanded="true" signature="22366:22425" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="22524:22903" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="22623:22781" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="22629:22721" ph="//..." />
+            <marker date="1510997768000" expanded="true" signature="22840:22899" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="22991:23298" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="23076:23176" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="23082:23172" ph="//..." />
+            <marker date="1510997768000" expanded="true" signature="23235:23294" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="23392:23559" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="23489:23559" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="23495:23559" ph="//..." />
+            <marker date="1510997768000" expanded="true" signature="24036:24038" ph="//..." />
+            <marker date="1510997768000" expanded="true" signature="24036:24042" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="24036:24164" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="24101:24160" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="24253:24564" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="24340:24442" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="24346:24438" ph="//..." />
+            <marker date="1510997768000" expanded="true" signature="24501:24560" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="24703:25015" ph="{...}" />
+            <marker date="1510997768000" expanded="true" signature="24871:25011" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -918,14 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/routes/auth/login-test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -938,7 +1030,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1510993478000" expanded="true" signature="61:194" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -946,7 +1040,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-          <folding />
+          <folding>
+            <marker date="1510994281000" expanded="true" signature="95:1830" ph="{...}" />
+            <marker date="1510994281000" expanded="true" signature="144:1627" ph="{...}" />
+            <marker date="1510994281000" expanded="true" signature="1638:1828" ph="{...}" />
+            <marker date="1510994281000" expanded="true" signature="1661:1822" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -960,8 +1059,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/app/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        <state relative-caret-position="255">
+          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/routes/auth/login-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/routes/app/index-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
           <folding />
         </state>
       </provider>
