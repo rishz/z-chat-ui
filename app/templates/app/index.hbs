@@ -37,6 +37,18 @@
         {{/each}}
         </ul>
 
+        <div class="row create-room">
+          {{x-input value=model.newRoom.name label="Room Name" classNames='col s8' errors=model.newRoom.errors}}
+          <div class="col s4">
+
+            {{!-- CREATE ROOM BUTTON --}}
+            <button class="btn-flat green white-text" onclick={{route-action 'createRoom'}}>
+              Create Room
+            </button>
+
+          </div>
+        </div>
+
       {{/x-card}}
     </div>
   </div>
