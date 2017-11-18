@@ -4,6 +4,9 @@ $roboto-font-path: '../assets/';
 // Materialize styles
 @import "materialize";
 
+@import "components/color";
+$primary-color: color('deep-orange', 'darken-2');
+
 body {
   background-color: color('indigo', 'darken-1');
 }

@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3ea6521-b113-4674-8230-45cfe746c40f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/nav-link.js" afterPath="$PROJECT_DIR$/app/components/nav-link.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/x-div.js" afterPath="$PROJECT_DIR$/app/components/x-div.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/x-nav.js" afterPath="$PROJECT_DIR$/app/components/x-nav.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/components/nav-link.hbs" afterPath="$PROJECT_DIR$/app/templates/components/nav-link.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/components/x-nav.hbs" afterPath="$PROJECT_DIR$/app/templates/components/x-nav.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/app.scss" afterPath="$PROJECT_DIR$/app/styles/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/integration/components/nav-link-test.js" afterPath="$PROJECT_DIR$/tests/integration/components/nav-link-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/integration/components/x-nav-test.js" afterPath="$PROJECT_DIR$/tests/integration/components/x-nav-test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,31 +43,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/app/index.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="x-div.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/x-div.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <marker date="1511000823000" expanded="true" signature="75:291" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/app.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="x-nav.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nav-link-test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/integration/components/nav-link-test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="x-nav-test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/integration/components/x-nav-test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="x-nav.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/components/x-nav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="270">
+              <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -84,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav-link.hbs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nav-link.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/components/nav-link.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -98,27 +123,7 @@
         <entry file="file://$PROJECT_DIR$/app/templates/components/x-nav.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login-card.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/components/login-card.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -144,8 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ember-cli-build.js" />
-        <option value="$PROJECT_DIR$/node_modules/ember-materialize-shim/index.js" />
         <option value="$PROJECT_DIR$/node_modules/ember-materialize-shim/package.json" />
         <option value="$PROJECT_DIR$/node_modules/ember-materialize-shim/vendor/materialize-shim.js" />
         <option value="$PROJECT_DIR$/app/templates/components/x-input.hbs" />
@@ -187,14 +190,16 @@
         <option value="$PROJECT_DIR$/tests/unit/routes/auth/login-test.js" />
         <option value="$PROJECT_DIR$/app/models/user.js" />
         <option value="$PROJECT_DIR$/app/routes/app/index.js" />
-        <option value="$PROJECT_DIR$/app/styles/app.scss" />
         <option value="$PROJECT_DIR$/tests/unit/routes/app/index-test.js" />
         <option value="$PROJECT_DIR$/app/templates/app/index.hbs" />
         <option value="$PROJECT_DIR$/app/components/x-div.js" />
-        <option value="$PROJECT_DIR$/app/components/x-nav.js" />
         <option value="$PROJECT_DIR$/app/templates/components/x-nav.hbs" />
         <option value="$PROJECT_DIR$/app/components/nav-link.js" />
         <option value="$PROJECT_DIR$/app/templates/components/nav-link.hbs" />
+        <option value="$PROJECT_DIR$/app/styles/app.scss" />
+        <option value="$PROJECT_DIR$/tests/integration/components/nav-link-test.js" />
+        <option value="$PROJECT_DIR$/tests/integration/components/x-nav-test.js" />
+        <option value="$PROJECT_DIR$/app/components/x-nav.js" />
       </list>
     </option>
   </component>
@@ -360,6 +365,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -459,24 +504,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -685,12 +712,12 @@
       <workItem from="1509461920769" duration="1086000" />
       <workItem from="1509477074045" duration="322000" />
       <workItem from="1510039319602" duration="1971000" />
-      <workItem from="1510646629731" duration="24622000" />
+      <workItem from="1510646629731" duration="25267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28001000" />
+    <option name="totallyTimeSpent" value="28646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
@@ -726,22 +753,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/session-stores/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/resolver.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -921,37 +932,37 @@
         <state relative-caret-position="315">
           <caret line="583" column="19" lean-forward="false" selection-start-line="583" selection-start-column="19" selection-end-line="583" selection-end-column="19" />
           <folding>
-            <marker date="1510998766000" expanded="true" signature="19203:19376" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="19306:19376" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="21889:21891" ph="//..." />
-            <marker date="1510998766000" expanded="true" signature="21889:21895" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="21889:22017" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="21954:22013" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="22110:22433" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="22205:22311" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="22211:22307" ph="//..." />
-            <marker date="1510998766000" expanded="true" signature="22370:22429" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="22528:22907" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="22627:22785" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="22633:22725" ph="//..." />
-            <marker date="1510998766000" expanded="true" signature="22844:22903" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="22995:23302" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="23080:23180" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="23086:23176" ph="//..." />
-            <marker date="1510998766000" expanded="true" signature="23239:23298" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="23396:23563" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="23493:23563" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="23499:23563" ph="//..." />
-            <marker date="1510998766000" expanded="true" signature="24040:24042" ph="//..." />
-            <marker date="1510998766000" expanded="true" signature="24040:24046" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="24040:24168" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="24105:24164" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="24257:24568" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="24344:24446" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="24350:24442" ph="//..." />
-            <marker date="1510998766000" expanded="true" signature="24505:24564" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="24707:25019" ph="{...}" />
-            <marker date="1510998766000" expanded="true" signature="24875:25015" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="19203:19376" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="19306:19376" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="25770:25772" ph="//..." />
+            <marker date="1511001989000" expanded="true" signature="25770:25776" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="25770:25898" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="25835:25894" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="25991:26314" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="26086:26192" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="26092:26188" ph="//..." />
+            <marker date="1511001989000" expanded="true" signature="26251:26310" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="26409:26788" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="26508:26666" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="26514:26606" ph="//..." />
+            <marker date="1511001989000" expanded="true" signature="26725:26784" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="26876:27183" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="26961:27061" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="26967:27057" ph="//..." />
+            <marker date="1511001989000" expanded="true" signature="27120:27179" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="27277:27444" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="27374:27444" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="27380:27444" ph="//..." />
+            <marker date="1511001989000" expanded="true" signature="27921:27923" ph="//..." />
+            <marker date="1511001989000" expanded="true" signature="27921:27927" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="27921:28049" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="27986:28045" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="28138:28449" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="28225:28327" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="28231:28323" ph="//..." />
+            <marker date="1511001989000" expanded="true" signature="28386:28445" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="28588:28900" ph="{...}" />
+            <marker date="1511001989000" expanded="true" signature="28756:28896" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1045,14 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="43" column="3" lean-forward="false" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/unit/routes/auth/login-test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1137,14 +1140,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
+          <folding>
+            <marker date="1511000823000" expanded="true" signature="75:291" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/components/x-nav.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1165,14 +1170,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/x-nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/nav-link.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1185,6 +1182,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/integration/components/nav-link-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/integration/components/x-nav-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/x-nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding />
         </state>
       </provider>
