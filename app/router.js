@@ -11,7 +11,11 @@ Router.map(function() {
     this.route('login');
     this.route('register');
   });
-  this.route('app', function() {});
+  this.route('app', function() {
+    this.route('room', {
+      path: 'room/:room_id'
+    }, function() {});
+  });
 });
 
 export default Router;
